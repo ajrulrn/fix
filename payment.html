@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body class="payment">
+
+    <main>
+        <section class="section-payment">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-6 col-md-12">
+                        <h1 class="title-payment">Order Summary</h1>
+                        <div class="ticket-detail">
+                            <div class="row ticket-header">
+                                <div class="col-lg-5 col-md-5 col-sm-5 col-5 mt-4 ml-2">
+                                    <h5>Presale</h5>
+                                </div>
+                                <div class="col-xl-1 col-lg-3 col-md-3 col-sm-3 col-3 offset-3 offset-sm-3 offset-md-3 offset-xl-5 offset-lg-3 mt-4 text-right">
+                                    <p class="price-detail-ticket">$10.00</p>
+                                </div>
+                            </div>
+                            <div class="row ticket-total mt-5 ml-3 pt-1 justify-content-between">
+                                <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6 col-6 ticket-quantity">
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-2 align-self-center">
+                                            <p class="qty-text">Quantity</p>
+                                        </div>
+                                        <div class="col-7 text-right">
+                                            <button type="button" class="btn btn-min">
+                                                <img src="frontend/images/ic_min.png" alt="">
+                                            </button>
+                                            <span class="number-ticket px-1">
+                                                1
+                                            </span>
+                                            <button type="button" class="btn btn-plus">
+                                                <img src="frontend/images/ic_plus.png" alt="">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-sm-5 col-5 text-right align-self-end">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <button type="button" class="btn btn-remove">
+                                                <img src="frontend/images/16/x.png" alt="">
+                                                <span class="remove-text">Remove from cart</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ticket-detail mt-5">
+                            <div class="row ticket-header">
+                                <div class="col-lg-5 col-md-5 col-sm-5 col-5 mt-4 ml-2">
+                                    <h5>Presale 2</h5>
+                                </div>
+                                <div class="col-xl-1 col-lg-3 col-md-2 col-sm-3 col-3 offset-3 offset-sm-3 offset-md-4 offset-xl-5 offset-lg-3 mt-4 text-right">
+                                    <p class="price-detail-ticket">$10.00</p>
+                                </div>
+                            </div>
+                            <div class="row ticket-total mt-5 ml-3 pt-1 justify-content-between">
+                                <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6 col-6 ticket-quantity">
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-2 align-self-center">
+                                            <p class="qty-text">Quantity</p>
+                                        </div>
+                                        <div class="col-7 text-right">
+                                            <button type="button" class="btn btn-min">
+                                                <img src="frontend/images/ic_min.png" alt="">
+                                            </button>
+                                            <span class="number-ticket px-1">
+                                                1
+                                            </span>
+                                            <button type="button" class="btn btn-plus">
+                                                <img src="frontend/images/ic_plus.png" alt="">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6 col-sm-5 col-5 text-right align-self-end">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <button type="button" class="btn btn-remove">
+                                                <img src="frontend/images/16/x.png" alt="">
+                                                <span class="remove-text">Remove from cart</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="subtotal mt-4">
+                            Total 
+                            <br>
+                            $20.00
+                        </h2>
+                    </div>
+                    <div class="col-lg-5 col-md-12 mt-4 offset-lg-1 offset-md-0">
+                        <span class="payment-detail-header">
+                            Payment Detail
+                        </span>
+                        <div class="payment-detail">
+                            <div class="row mt-2">
+                                <div class="col">
+                                    <div class="form-group row mx-0 px-4 mt-2">
+                                        <label for="exampleInputEmail1">Payment Method</label>
+                                        <select class="form-control px-2">
+                                            <option value="">Credit/Debit Card</option>
+                                            <option value="">Gopay</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group row mx-0 px-4 mt-2">
+                                        <label for="exampleInputEmail1">Card Holder</label>
+                                        <input type="text" name="" id="" class="form-control">
+                                    </div>
+                                    <div class="form-group row mx-0 px-4 mt-2">
+                                        <label for="exampleInputEmail1">Card Number</label>
+                                        <input type="password" name="" id="" class="form-control">
+                                    </div>
+                                    <div class="form-group row mx-0 px-4 mt-2 justify-content-between ml-0">
+                                        <div class="col-xl-6 col-lg-8 col-md-5 col-sm-6 col-6 pl-0">
+                                            <label for="exampleInputEmail1">EXP</label>
+                                            <div class="row">
+                                                <div class="col-8 month-expire">
+                                                    <select class="form-control">
+                                                        <option value="">01</option>
+                                                        <option value="">02</option>
+                                                    </select>
+                                                </div>                                 
+                                                <div class="col-6 date-expire">
+                                                    <select class="form-control">
+                                                        <option value="">19</option>
+                                                        <option value="">20</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 col-md-3 col-sm-3 col-3">
+                                            <label for="exampleInputEmail1">CVV</label>
+                                            <div class="row">
+                                                <div class="col-12 cvv">
+                                                    <input type="text" name="" id="" class="form-control" maxlength="3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center mt-5">
+                                        <div class="col-xl-8 col-lg-10 col-md-5 col-sm-7 col-7">
+                                            <a href="index.html" class="btn btn-cancel">Cancel</a>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center mt-3">
+                                        <div class="col-xl-8 col-lg-10 col-md-5 col-sm-7 col-7">
+                                            <button class="btn btn-purchase">Purchase</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+<script src="frontend/libraries/bootstrap/popper.min.js"></script>
+<script src="frontend/libraries/bootstrap/bootstrap.min.js"></script>
+<script src="frontend/libraries/retina-js/retina.min.js"></script>
+</html>

@@ -1,0 +1,616 @@
+body {
+    background-color: #1c222c;
+    color: #fff;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn-get-started {
+    background-color: #475FFF;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 7px;
+
+    &:hover {
+        background-color: #3B4DC3;
+        color: #fff;
+    }
+}
+
+.btn-sign-in {
+    background-color: #475FFF;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5px 20px;
+
+    &:hover {
+        background-color: #3B4DC3;
+        color: #fff;
+    }
+}
+
+.section-upcoming-events {
+    min-height: 700px;
+
+    .link-events {
+        text-decoration: none;
+    }
+
+    .card {
+        min-width: 220px;
+        border: none;
+        border-radius: 10px;
+        color: #000;
+        z-index: 1;
+    }   
+
+    .card:hover {
+        // box-sizing: border-box;
+        opacity: .3;
+    }
+    
+    .events-image {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    // .events:hover {
+    //     box-sizing: border-box;
+    //     border: 2px solid #fff;
+    //     border-radius: 12px;
+    // }
+
+    .events {
+        z-index: 2;
+    }
+
+    .events:hover {
+        // content: '';
+        // opacity: 1;
+        background: url('../images/ic_email.png');
+        // background-color: #fff;
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        background-position: 160px 140px;
+        // width: 40px;
+        // height: 40px;
+        // top: 150px;
+        // bottom: 0px;
+        // left: 170px;
+        // right: 0px;
+        // position: absolute;
+        // opacity: 0;
+        // z-index: -1;
+        // opacity: .9;
+    }
+
+    // .events:hover{
+        // opacity: 1;
+    // }
+
+    .price-box {
+        min-width: 100px;
+        height: 50px;
+        background-color: #fff;
+        position: absolute;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        .price {
+            font-size: 24px;
+            color: #35EB5D;
+        }
+    }
+
+    .card-body {
+        min-height: 140px;
+        box-sizing: border-box;
+        padding: 20px 4px;
+
+        .events-desc {
+            box-sizing: border-box;
+            width: 500px;
+            
+            .events-month,
+            .events-date {
+                font-size: 16px;
+            }
+        }
+
+        .events-time {
+            color: #475FFF;
+        }
+
+        .events-date {
+            font-weight: bolder;
+        }
+
+        .card-title {
+            font-size: 18px;
+        }
+
+        .card-text {
+            font-size: 14px;
+        }
+    }
+
+    hr {
+        margin-top: 100px;
+        width: 340px !important;
+        border: 1px solid #fff !important;
+    }
+}
+
+.section-footer {
+    // min-height: 250px;
+    padding-bottom: 20px;
+
+    .input-email-newsletter {
+        padding: 26px;
+    }
+
+    .btn-email {
+        background-color: #475FFF;
+
+        &:hover {
+            background-color: #2F42C2;
+        }
+    }
+
+    .social-media {
+        text-decoration: none;
+    }
+}
+
+
+.section-events {
+    min-height: 700px;
+
+    .input-search {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 21px 15px;
+    }
+
+    .btn-search {
+        background-color: #475FFF;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        &:hover {
+            background-color: #3B4DC3;
+        }
+    }
+
+    .link-events {
+        text-decoration: none;
+    }
+
+    .card {
+        min-width: 220px;
+        border: none;
+        border-radius: 10px;
+        color: #000;
+    }   
+
+    .price-box {
+        min-width: 100px;
+        height: 50px;
+        background-color: #fff;
+        position: absolute;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        .price {
+            font-size: 24px;
+            color: #35EB5D;
+        }
+    }
+
+    .events-image {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .card-body {
+        min-height: 140px;
+
+        .events-desc {
+            width: 500px;
+            
+            .events-month,
+            .events-date {
+                font-size: 16px;
+            }
+        }
+
+        .events-time {
+            color: #475FFF;
+        }
+
+        .events-date {
+            font-weight: bolder;
+        }
+
+        .card-title {
+            font-size: 18px;
+        }
+
+        .card-text {
+            font-size: 14px;
+        }
+    }
+}
+
+.section-sign-up {
+    color: #000;
+    background-color: #fff;
+
+    .input-sign-up {
+        min-height: 666px;
+    }
+
+    .form-sign-up {
+        border: 2px solid #ced4da;
+        border-radius: 7px;
+    }
+
+    .sign-up-title {
+        color: #475FFF;
+        font-weight: normal;
+        margin-top: -20px;
+        margin-bottom: 60px;
+        margin-left: 60px;
+        // padding: 50px 0;
+    }
+
+    .form-sign-up:focus {
+        border-color:#475FFF;
+        border: 1px solid #475FFF;
+    }
+
+    .form-control:focus {
+        box-shadow: 0px 0px 3px 1px #3B4DC3 !important;
+    }
+
+    .banner-sign-up {
+        // content: '';
+        background: url('../images/sign-up.png');
+        background-size: cover;
+        // width: 20px;
+        // height: 20px;
+        // background-color: #475FFF;
+        // z-index: 2;
+    }
+
+    .btn-register {
+        background-color: #475FFF;
+        color: #fff;
+        padding: 8px 95px;
+        border-radius: 7px;
+        width: inherit;
+
+        &:hover {
+            background-color: #3B4DC3;
+        }
+    }
+
+    .goto-sign-in,
+    .goto-sign-up {
+        font-weight: normal;
+        margin-left: 55px;
+        color: #777;
+        .link-sign-in {
+            text-decoration: none;
+            color: #475FFF;
+        }
+    }
+}
+
+.btn-login {
+    background-color: #475FFF;
+    color: #fff;
+    padding: 8px 105px;
+    width: inherit;
+    border-radius: 7px;
+
+    &:hover {
+        background-color: #3B4DC3;
+        color: #fff;
+    }
+}
+
+.sign-in-title {
+    color: #475FFF;
+    margin-left: 50px;
+    font-weight: normal;
+    margin-top: -20px;
+}
+
+.sign-in-subtitle {
+    color: #aaa;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    // padding: 50px 0;
+}
+
+.payment {
+    background-color: #1c222c;
+}
+
+.section-payment {
+    .ticket-detail {
+        background-color: #475FFF;
+        border-radius: 10px;
+        min-height: 196px;
+
+        .ticket-header {
+            margin-left: 0px;
+            margin-right: 0px;
+
+            .price-detail-ticket {
+                font-weight: bolder;
+            }
+        }
+
+        .ticket-total {
+            margin: 0px 0px;
+            
+            .ticket-quantity {
+                background-color: #2F42C2;
+                padding: 10px 10px;
+                border-radius: 5px;
+
+                .qty-text {
+                    margin-bottom: 0px;
+                }
+            }
+
+            .btn-min,
+            .btn-plus,
+            .btn-remove {
+                padding: 0px;
+            }
+            
+            .btn-remove {
+                .remove-text {
+                font-size: 14px;
+                color: #fff;    
+                }
+            }
+        }
+    }
+
+    .subtotal {
+        color: #35EB5D;
+    }
+
+    .payment-detail {
+        background-color: #475FFF;
+        height: 545px;
+        border-radius: 8px;
+
+        .month-expire,
+        .date-expire {
+            flex: 0 0 45%;
+        }
+
+        .btn-cancel {
+            background-color: #4A5CD8;
+            padding: 15px 129px;
+            border-radius: 5px;
+            color: #fff;
+            
+            &:hover {
+                background-color: #4354C9;
+            }
+        }
+
+        .btn-purchase {
+            background-color: #3BBCFF;
+            padding: 15px 120px;
+            color: #fff;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #33ACEB;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.section-success-payment {
+    min-height: 666px;
+    .success-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn-get-ticket {
+        background-color: #475FFF;
+        padding: 15px 60px;
+        border-radius: 10px;
+        color: #fff;
+
+        &:hover {
+            background-color: #3B4DC3;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    nav {
+        background-color: #475FFF;
+        // border-radius: 5px;
+        
+        .navbar-toggler {
+            background-color: #253bce;
+        }
+
+        .btn-sign-in {
+            background-color: #fff;
+            color: #475FFF;
+
+            &:hover {
+                background-color: #1c2fa9;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .sign-in-title,
+    .sign-in-subtitle{
+        margin: 0 !important;
+    }
+
+    .goto-sign-in,
+    .goto-sign-up {
+        margin-left: 44px !important;
+    }
+
+    .btn-login {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .btn-login {
+        padding: 8px 90px;
+    }
+
+    .goto-sign-in,
+    .goto-sign-up {
+        margin-left: 0px !important;
+    }
+}
+
+.section-detail-event {
+
+    .img-detail-event {
+        width: inherit;
+    }
+
+    .btn-description {
+        color: #fff;
+    }
+
+    .active-tab {
+        font-weight: bold;
+        color: #475FFF;
+        border-bottom: 3px solid #475FFF;
+        
+    }
+
+    .link-event-organizer {
+        text-decoration: none;
+    }
+    .event-organizer {
+        // display: inline-block;
+        // width: 100%;
+
+        .name-event-organizer {
+            display: inline-block;
+            margin: 0;
+            color: #fff;
+        }
+    }
+
+    .link-event-location {
+        text-decoration: none;
+    }
+
+    .name-event-location {
+        display: inline-block;
+        color: #fff;
+    }
+
+    .date {
+        display: inline-block;
+    }
+
+    .time {
+        display: inline-block;
+    }
+
+
+
+    .tab-link {
+        text-decoration: none !important;
+        color: #fff;
+    }
+
+    .tab-link.active {
+        color: #475FFF;
+        font-weight: bold;
+        padding-bottom: 15px;
+        border-bottom: 3px solid #475FFF;
+    }
+
+    .ticket-event {
+        min-height: 100px;
+        border-radius: 10px;
+        background-color: #475FFF;
+    }
+}
+
+.section-footer-detail {
+    min-height: 170px;
+    background-color: #475FFF;
+    display: none;
+
+    .btn-buy {
+        background-color: #fff;
+        color: #475FFF;
+        padding: 10px 35px;
+        margin-top: 90px;
+    } 
+}
+
+@media only screen and (max-width: 991px) {
+    .btn-buy {
+        margin-top: 120px !important;
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    .btn-buy {
+        margin-top: 150px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .event-time {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 444px) {
+    .event-date {
+        margin-right: 2px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ticket-total {
+        margin-top: 80px !important;
+    }
+    .ticket-detail {
+        min-height: 230px !important;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .btn-cancel {
+        padding: 15px 90px !important;
+    }
+    .btn-purchase {
+        padding: 15px 80px !important;
+    }
+}

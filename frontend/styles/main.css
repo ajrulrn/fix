@@ -1,0 +1,571 @@
+body {
+  background-color: #1c222c;
+  color: #fff;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn-get-started {
+  background-color: #475FFF;
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 7px;
+}
+
+.btn-get-started:hover {
+  background-color: #3B4DC3;
+  color: #fff;
+}
+
+.btn-sign-in {
+  background-color: #475FFF;
+  color: #fff;
+  border-radius: 8px;
+  padding: 5px 20px;
+}
+
+.btn-sign-in:hover {
+  background-color: #3B4DC3;
+  color: #fff;
+}
+
+.section-upcoming-events {
+  min-height: 700px;
+}
+
+.section-upcoming-events .link-events {
+  text-decoration: none;
+}
+
+.section-upcoming-events .card {
+  min-width: 220px;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  z-index: 1;
+}
+
+.section-upcoming-events .card:hover {
+  opacity: .3;
+}
+
+.section-upcoming-events .events-image {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.section-upcoming-events .events {
+  z-index: 2;
+}
+
+.section-upcoming-events .events:hover {
+  background: url("../images/ic_email.png");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: 160px 140px;
+}
+
+.section-upcoming-events .price-box {
+  min-width: 100px;
+  height: 50px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.section-upcoming-events .price-box .price {
+  font-size: 24px;
+  color: #35EB5D;
+}
+
+.section-upcoming-events .card-body {
+  min-height: 140px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 4px;
+}
+
+.section-upcoming-events .card-body .events-desc {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 500px;
+}
+
+.section-upcoming-events .card-body .events-desc .events-month,
+.section-upcoming-events .card-body .events-desc .events-date {
+  font-size: 16px;
+}
+
+.section-upcoming-events .card-body .events-time {
+  color: #475FFF;
+}
+
+.section-upcoming-events .card-body .events-date {
+  font-weight: bolder;
+}
+
+.section-upcoming-events .card-body .card-title {
+  font-size: 18px;
+}
+
+.section-upcoming-events .card-body .card-text {
+  font-size: 14px;
+}
+
+.section-upcoming-events hr {
+  margin-top: 100px;
+  width: 340px !important;
+  border: 1px solid #fff !important;
+}
+
+.section-footer {
+  padding-bottom: 20px;
+}
+
+.section-footer .input-email-newsletter {
+  padding: 26px;
+}
+
+.section-footer .btn-email {
+  background-color: #475FFF;
+}
+
+.section-footer .btn-email:hover {
+  background-color: #2F42C2;
+}
+
+.section-footer .social-media {
+  text-decoration: none;
+}
+
+.section-events {
+  min-height: 700px;
+}
+
+.section-events .input-search {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 21px 15px;
+}
+
+.section-events .btn-search {
+  background-color: #475FFF;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.section-events .btn-search:hover {
+  background-color: #3B4DC3;
+}
+
+.section-events .link-events {
+  text-decoration: none;
+}
+
+.section-events .card {
+  min-width: 220px;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+}
+
+.section-events .price-box {
+  min-width: 100px;
+  height: 50px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.section-events .price-box .price {
+  font-size: 24px;
+  color: #35EB5D;
+}
+
+.section-events .events-image {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.section-events .card-body {
+  min-height: 140px;
+}
+
+.section-events .card-body .events-desc {
+  width: 500px;
+}
+
+.section-events .card-body .events-desc .events-month,
+.section-events .card-body .events-desc .events-date {
+  font-size: 16px;
+}
+
+.section-events .card-body .events-time {
+  color: #475FFF;
+}
+
+.section-events .card-body .events-date {
+  font-weight: bolder;
+}
+
+.section-events .card-body .card-title {
+  font-size: 18px;
+}
+
+.section-events .card-body .card-text {
+  font-size: 14px;
+}
+
+.section-sign-up {
+  color: #000;
+  background-color: #fff;
+}
+
+.section-sign-up .input-sign-up {
+  min-height: 666px;
+}
+
+.section-sign-up .form-sign-up {
+  border: 2px solid #ced4da;
+  border-radius: 7px;
+}
+
+.section-sign-up .sign-up-title {
+  color: #475FFF;
+  font-weight: normal;
+  margin-top: -20px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+}
+
+.section-sign-up .form-sign-up:focus {
+  border-color: #475FFF;
+  border: 1px solid #475FFF;
+}
+
+.section-sign-up .form-control:focus {
+  -webkit-box-shadow: 0px 0px 3px 1px #3B4DC3 !important;
+          box-shadow: 0px 0px 3px 1px #3B4DC3 !important;
+}
+
+.section-sign-up .banner-sign-up {
+  background: url("../images/sign-up.png");
+  background-size: cover;
+}
+
+.section-sign-up .btn-register {
+  background-color: #475FFF;
+  color: #fff;
+  padding: 8px 95px;
+  border-radius: 7px;
+  width: inherit;
+}
+
+.section-sign-up .btn-register:hover {
+  background-color: #3B4DC3;
+}
+
+.section-sign-up .goto-sign-in,
+.section-sign-up .goto-sign-up {
+  font-weight: normal;
+  margin-left: 55px;
+  color: #777;
+}
+
+.section-sign-up .goto-sign-in .link-sign-in,
+.section-sign-up .goto-sign-up .link-sign-in {
+  text-decoration: none;
+  color: #475FFF;
+}
+
+.btn-login {
+  background-color: #475FFF;
+  color: #fff;
+  padding: 8px 105px;
+  width: inherit;
+  border-radius: 7px;
+}
+
+.btn-login:hover {
+  background-color: #3B4DC3;
+  color: #fff;
+}
+
+.sign-in-title {
+  color: #475FFF;
+  margin-left: 50px;
+  font-weight: normal;
+  margin-top: -20px;
+}
+
+.sign-in-subtitle {
+  color: #aaa;
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+
+.payment {
+  background-color: #1c222c;
+}
+
+.section-payment .ticket-detail {
+  background-color: #475FFF;
+  border-radius: 10px;
+  min-height: 196px;
+}
+
+.section-payment .ticket-detail .ticket-header {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.section-payment .ticket-detail .ticket-header .price-detail-ticket {
+  font-weight: bolder;
+}
+
+.section-payment .ticket-detail .ticket-total {
+  margin: 0px 0px;
+}
+
+.section-payment .ticket-detail .ticket-total .ticket-quantity {
+  background-color: #2F42C2;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.section-payment .ticket-detail .ticket-total .ticket-quantity .qty-text {
+  margin-bottom: 0px;
+}
+
+.section-payment .ticket-detail .ticket-total .btn-min,
+.section-payment .ticket-detail .ticket-total .btn-plus,
+.section-payment .ticket-detail .ticket-total .btn-remove {
+  padding: 0px;
+}
+
+.section-payment .ticket-detail .ticket-total .btn-remove .remove-text {
+  font-size: 14px;
+  color: #fff;
+}
+
+.section-payment .subtotal {
+  color: #35EB5D;
+}
+
+.section-payment .payment-detail {
+  background-color: #475FFF;
+  height: 545px;
+  border-radius: 8px;
+}
+
+.section-payment .payment-detail .month-expire,
+.section-payment .payment-detail .date-expire {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+}
+
+.section-payment .payment-detail .btn-cancel {
+  background-color: #4A5CD8;
+  padding: 15px 129px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.section-payment .payment-detail .btn-cancel:hover {
+  background-color: #4354C9;
+}
+
+.section-payment .payment-detail .btn-purchase {
+  background-color: #3BBCFF;
+  padding: 15px 120px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.section-payment .payment-detail .btn-purchase:hover {
+  background-color: #33ACEB;
+  color: #fff;
+}
+
+.section-success-payment {
+  min-height: 666px;
+}
+
+.section-success-payment .success-img {
+  width: 200px;
+  height: 200px;
+}
+
+.section-success-payment .btn-get-ticket {
+  background-color: #475FFF;
+  padding: 15px 60px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.section-success-payment .btn-get-ticket:hover {
+  background-color: #3B4DC3;
+}
+
+@media only screen and (max-width: 720px) {
+  nav {
+    background-color: #475FFF;
+  }
+  nav .navbar-toggler {
+    background-color: #253bce;
+  }
+  nav .btn-sign-in {
+    background-color: #fff;
+    color: #475FFF;
+  }
+  nav .btn-sign-in:hover {
+    background-color: #1c2fa9;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .sign-in-title,
+  .sign-in-subtitle {
+    margin: 0 !important;
+  }
+  .goto-sign-in,
+  .goto-sign-up {
+    margin-left: 44px !important;
+  }
+  .btn-login {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .btn-login {
+    padding: 8px 90px;
+  }
+  .goto-sign-in,
+  .goto-sign-up {
+    margin-left: 0px !important;
+  }
+}
+
+.section-detail-event .img-detail-event {
+  width: inherit;
+}
+
+.section-detail-event .btn-description {
+  color: #fff;
+}
+
+.section-detail-event .active-tab {
+  font-weight: bold;
+  color: #475FFF;
+  border-bottom: 3px solid #475FFF;
+}
+
+.section-detail-event .link-event-organizer {
+  text-decoration: none;
+}
+
+.section-detail-event .event-organizer .name-event-organizer {
+  display: inline-block;
+  margin: 0;
+  color: #fff;
+}
+
+.section-detail-event .link-event-location {
+  text-decoration: none;
+}
+
+.section-detail-event .name-event-location {
+  display: inline-block;
+  color: #fff;
+}
+
+.section-detail-event .date {
+  display: inline-block;
+}
+
+.section-detail-event .time {
+  display: inline-block;
+}
+
+.section-detail-event .tab-link {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.section-detail-event .tab-link.active {
+  color: #475FFF;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #475FFF;
+}
+
+.section-detail-event .ticket-event {
+  min-height: 100px;
+  border-radius: 10px;
+  background-color: #475FFF;
+}
+
+.section-footer-detail {
+  min-height: 170px;
+  background-color: #475FFF;
+  display: none;
+}
+
+.section-footer-detail .btn-buy {
+  background-color: #fff;
+  color: #475FFF;
+  padding: 10px 35px;
+  margin-top: 90px;
+}
+
+@media only screen and (max-width: 991px) {
+  .btn-buy {
+    margin-top: 120px !important;
+  }
+}
+
+@media only screen and (max-width: 462px) {
+  .btn-buy {
+    margin-top: 150px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .event-time {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .event-date {
+    margin-right: 2px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .ticket-total {
+    margin-top: 80px !important;
+  }
+  .ticket-detail {
+    min-height: 230px !important;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .btn-cancel {
+    padding: 15px 90px !important;
+  }
+  .btn-purchase {
+    padding: 15px 80px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */

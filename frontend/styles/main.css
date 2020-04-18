@@ -415,13 +415,19 @@ body {
   background-color: #3B4DC3;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 991px) {
   .btn-sign-in {
     background-color: #fff;
     color: #475FFF;
   }
   .btn-sign-in:hover {
     background-color: #1c2fa9;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  nav {
+    background-color: #1c222c !important;
   }
 }
 

@@ -444,7 +444,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 991px) {
     .btn-sign-in {
         background-color: #fff;
         color: #475FFF;
@@ -455,6 +455,13 @@ body {
     }
     
 }
+
+@media only screen and (min-width: 992px) {
+    nav {
+        background-color: #1c222c !important;
+    }    
+}
+
 
 @media only screen and (max-width: 991px) {
     .sign-in-title,

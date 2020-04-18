@@ -12,4 +12,12 @@ $('.tab-link').on('click', function() {
     }
 })
 
-console.log(screen.width)
+$('.navbar-toggler').on('click', function() {    
+    setTimeout(() => {
+        if($(this).hasClass('collapsed')) {
+            $('nav').css('background-color', '#1c222c')
+        } else {
+            $('nav').css('background-color', '#475FFF')
+        }
+    }, 50)
+})

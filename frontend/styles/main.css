@@ -416,17 +416,11 @@ body {
 }
 
 @media only screen and (max-width: 720px) {
-  nav {
-    background-color: #475FFF;
-  }
-  nav .navbar-toggler {
-    background-color: #253bce;
-  }
-  nav .btn-sign-in {
+  .btn-sign-in {
     background-color: #fff;
     color: #475FFF;
   }
-  nav .btn-sign-in:hover {
+  .btn-sign-in:hover {
     background-color: #1c2fa9;
   }
 }
@@ -566,6 +560,15 @@ body {
   }
   .btn-purchase {
     padding: 15px 80px !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .btn-cancel {
+    padding: 15px 70px !important;
+  }
+  .btn-purchase {
+    padding: 15px 60px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
